@@ -1,0 +1,371 @@
+/* Для всего документа */
+* {
+    font-family: 'Roboto';
+    font-weight: 400;
+
+}
+
+li {
+    list-style: none;
+
+}
+
+.content {
+    margin: 0 auto;
+    max-width: 1200px;
+
+}
+.row{
+    margin: 0;
+
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Шапка */
+.header__inner {
+    width: 1200px;
+    height: 71px;
+    background: #121214;
+    display: flex;
+
+
+}
+.navbar-nav{
+    margin-top: 24px;
+}
+
+.nav-item{
+    margin-top: 19px;
+
+}
+
+.header__logo {
+    width: 97px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 19px;
+
+}
+
+.header__menu {
+    width: 492px;
+    height: 20px;
+
+}
+
+.auth {
+    display: flex;
+    margin-left: 382px;
+}
+
+.auth__login {
+    color: #A6A8AD;
+    font-size: 16px;
+    margin-top: 24px;
+    cursor: pointer;
+   
+}
+
+.auth__signup {
+    width: 95px;
+    height: 35px;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 32px;
+    margin-top: 17px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+/* Контент */
+.discount {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0033FF;
+    width: 1200px;
+    height: 46px;
+
+
+}
+
+.discount-link {
+    color: white;
+    margin-left: 40px;
+
+
+}
+
+.discount-text {
+    color: white;
+    text-align: center;
+    font-size: 16px;
+
+}
+
+.main-img {
+    width: 1200px;
+    height: 744px;
+    background-image: url('./image/main-img.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.main-img {
+    color: white;
+
+}
+
+.main-img__title {
+    font-size: 72px;
+    margin: 0;
+    margin-left: 48px;
+}
+
+.main-img__text {
+    width: 412px;
+    height: 48px;
+    font-size: 20px;
+    margin-top: 26px;
+    margin-left: 48px;
+}
+
+.main-img__btn {
+    margin-left: 48px;
+    width: 125px;
+    height: 56px;
+    margin-top: 44px;
+
+}
+
+.sound__text {
+    padding-top: 104px;
+    padding-left: 48px;
+}
+
+.sound__img {
+    background-image: url('./image/sound-img.png');
+    width: 580px;
+    height: 386px;
+    padding-top: 96px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+
+.Connected__text {
+    padding-top: 104px;
+    padding-left: 123px;
+    
+       
+}
+/* Создать единый класс */
+.Connected__text-main , .sound__text-main , .Gear__text-main ,.Technology__text-main{
+    color: #A6A8AD;
+    font-size: 12px;
+}
+
+.Connected__img {
+    background-image: url('./image/Conected-img.png');
+    width: 579px;
+    height: 386px;
+    padding-top: 96px;
+    margin-left: 48px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+        
+}
+
+.Gear {
+    display: flex;
+    width: 1200px;
+    height: 482px;
+    background: #121214;
+    color: white;
+    
+}
+
+.Gear__text {  
+    padding-top: 104px;
+    padding-left: 48px;
+}
+
+/* Создать единый класс */
+.Gear__text-title , .Technology__text-title ,.sound__text-title ,.Connected__text-title{ 
+    font-size: 28px;
+}
+.Gear__text-btn ,.Technology__text-btn ,.sound__text-btn  {
+    width: 159px;
+    height: 36px;
+
+}
+.Technology__text-description ,.Gear__text-description ,.sound__text-description ,.Connected__text-description{
+    font-size: 16px;
+
+}
+
+.Gear__img { 
+    background-image: url('./image/Gear-img.png');
+    width: 579px;
+    height: 386px;
+    padding-top: 96px;
+    margin-left: 48px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+            
+}
+
+.Technology {
+text-align: right;
+}
+
+.Technology__text {
+    padding-top: 104px;
+    padding-right: 123px;
+       
+}
+
+.Technology__img {
+    background-image: url('./image/Technology-img.png');
+    width: 579px;
+    height: 386px;
+    padding-top: 96px;
+    margin-left: 48px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+        
+}
+
+/* Подвал */
+.footer {
+    margin-top: auto;
+
+}  
+
+.footer__inner {
+    background: #121214;
+
+}
+
+.footer__menu-item+.footer__menu-item{
+    margin-top: 11px;
+
+
+}
+.footer__menu {
+    display: flex;
+    padding-top: 48px;
+    justify-content: space-around; 
+    color: #FFFFFF;
+}
+
+.nav-link {
+    color: #A6A8AD;
+}
+
+.footer__menu-item{
+    color: #A6A8AD;
+    font-size: 12px;
+
+}
+
+.footer__menu-item h2 {
+    font-size: 20px;
+    color: white;
+}
+
+.contact {
+  margin-left: 24px;  
+  /* margin-top: 83px; */
+
+}
+
+/* Карточки Творцов */
+.creators {
+    background: #121214;
+    margin-bottom: 120px;
+
+}
+
+.creators-title {
+    font-size: 28px;
+    color: #FFFFFF;
+    padding-top: 182px;
+    padding-bottom: 24px;
+    margin-top: 0;
+
+}
+
+.card-img {
+    margin: 32px  30px 32px 69px;
+    width: 223px;
+
+}
+
+.card-name {
+    color: #767676;
+    font-size: 14px;
+    margin-top: 16px;
+}
+
+.try {
+    background-image: url('./image/try-img.png');
+    width: 1200px;
+    height: 728px;
+
+}
+
+.try__title {
+    padding-top: 283px;
+    padding-left: 353px;
+    color: #FFFFFF;
+    font-size: 54px;
+    margin: 0;
+}
+
+.tru__btn {
+    margin-left: 463px;
+    margin-top: 65px;
+}
+
+@media (max-width: 900px){
+
+    .Gear__img ,.Technology__img ,.Connected__img ,.sound__img,.try {
+
+        width: 390px;
+    }
+    .auth {
+        margin-left: 0;
+
+    }
+    .discount {
+    display: none;
+
+    }
+
+    .main-img__title ,.main-img__text,.try__title,.header__inner {
+        font-size: 20px;
+        margin-left: 0;
+        max-width: 390px;
+        padding-left: 0;
+
+    }
+
+    .tru__btn {
+        margin-left: 0;
+    }
+
+    .main-img,header {
+        max-width: 390px;
+
+    }
+}

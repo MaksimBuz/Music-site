@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+        <header class="header">
+            <div class="content">
+                <div class="header__inner"> 
+                <img src="./image/image-logo.png" alt="" class="header__logo">
+                <nav class="navbar bg-dark navbar-expand-lg bg-body-tertiary header__menu" data-bs-theme="dark">
+                        <div class="container-fluid">
+                        <a class="navbar-brand" href="#"></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Переключатель навигации">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Sounds</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Skills</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Plugins</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Studio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Community</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Blog</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Pricing</a>
+                                </li>
+                            </ul>
+                        </div>
+                        </div>
+                    </nav>
+                   <div class="auth">
+                        <p class="auth__login">Login</p>
+                        <button class="auth__signup "data-bs-toggle="modal" data-bs-target="#exampleModal" >Sign up</button>
+                    </div>    
+                </div> 
+            </div>
+            <!-- Модальное окно -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Заголовок модального окна</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form action="">
+                            <div class="row mb-3">
+                                <label for="InputEmail1" class="col-sm-2 form-label">Email</label> 
+                                <div class="col-sm-10">
+                                    <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp">
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <label for="InputPass" class="col-sm-2 form-label">Password</label> 
+                                <div class="col-sm-10">
+                                    <input type="email" class="form-control" id="InputPass" aria-describedby="emailHelp">
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Отправить</button>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                        <button type="button" class="btn btn-primary">Сохранить изменения</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <div class="content">
+                <div class="discount">
+                    <p class="discount-text">🤘 Get free Sounds when you start a trial & 4 months off a Sounds+ annual plan.</p>
+                    <a href="" class="discount-link">Click here</a>
+                </div>
+                <div class="main-img">
+                            <h2 class="main-img__title">Step into the</h2>
+                            <h2 class="main-img__title">producer’s</h2>
+                            <h2 class="main-img__title">playground</h2>
+                            <p class="main-img__text">Explore the world’s best sample library and an unmatched marketplace of plugins and DAWs.</p>
+                            <button class="main-img__btn btn btn-primary">Try free</button>
+                </div>
+                
+                <div class="row ">
+                    <div class="col-12 sound__text  " style="background-color: #121214; color: white;">
+                                <p class="sound__text-main" >SOUNDS</p>
+                                <h2 class="sound__text-title">  A catalog so deep, it’s dangerous. </h2>
+                                <p class="sound__text-description">
+                                    Expertly created and curated samples in any style imaginable. Start swimming in sound.
+                                </p>
+                                <button class="sound__text-btn btn btn-primary">Explore Sounds</button>
+                    </div>
+                    <div class="col-12 " style="background-color: #121214;">
+                        <div class="sound__img" >
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="row">
+                            <div class="col-lg-6 " style="background-color: #121214; color: white;">
+                                <div class="Connected__img">
+                                </div>
+                            </div> 
+                            <div class="col-lg-6 Connected__text" style="background-color: #121214; color: white;">
+                                <p class="Connected__text-main" >Connected Experience</p>
+                                <h2 class="Connected__text-title"> A workflow that actually flows.</h2>
+                                <p class="Connected__text-description">
+                                    Preview samples in your track’s key and tempo, drag and drop sounds into your DAW, and organize your favorite samples, MIDI and presets in one place.
+                                </p>
+                            </div>  
+                </div>
+                <div class="row">
+                    <div class="col-lg-6  " style="background-color: #121214; color: white;">
+                        <div class="Gear__text">
+                            <p class="Gear__text-main">Gear</p>
+                            <h2 class="Gear__text-title">  Build a drool-worthy studio, affordably.</h2>
+                            <p class="Gear__text-description">
+                                The industry’s top software, all in one place, on payment plans built to work for you.
+                            </p>
+                            <button class="Gear__text-btn btn btn-primary">Explore Gear</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-6"  style="background-color: #121214; ">
+                        <div class="Gear__img">
+                        </div>
+                    </div>   
+                </div>
+                <div class="row Technology"> 
+                    <div class="col-lg-6 " style="background-color: #121214; color: white;">
+                        <div class="Technology__img">
+                        </div>
+                    </div> 
+                    <div class="col-lg-6 " style="background-color: #121214; color: white;">
+                        <div class="Technology__text">
+                            <p class="Technology__text-main">Cechnology</p>
+                            <h2 class="Technology__text-title"> Crate dig without the dust.</h2>
+                            <p class="Technology__text-description">
+                                Our intelligent search tools help you discover sounds you would normally have to dig to find. Tech breaks the sweat, not you.
+                            </p>
+                            <button class="Technology__text-btn btn btn-primary">Discover CoSo</button>
+                        </div>
+                    </div> 
+                </div> 
+                <div class="container"  style="background-color: #121214; ">
+                    <div class="row">
+                         <h2 class="creators-title">What creators are saying about Splice</h2>
+                    </div>
+                    <div class="row ">
+                        <div class="col-lg-4 creators">
+                            <div class="card" style="width: 361px;" style="background-color: #121214; ">
+                                 <div class="card-body">
+                                     <img src="./image/card-1.png" alt="" class="card-img">
+                                     <p class="card-text card-description">I can always find what I’m looking for on Splice, whether it’s the exact sound I want or just a bit of inspiration.</p>
+                                     <p class=" card-text card-name">Andrew Huang</p>
+                                 </div>
+                             </div> 
+                         </div>
+                        <div class="col-lg-4 creators">
+                            <div class="card" style="width: 361px;"  style="background-color: #121214; ">
+                                 <img src="./image/card-2.png" alt="" class="card-img">
+                                 <div class="card-body">
+                                     <p class="card-text card-description">Finally a way to buy plugins that works. By paying a little at a time, producers can get legit access to the top VSTs.</p>
+                                     <p class="card-text card-name">KSHMR</p>
+                                 </div>
+                             </div> 
+                         </div>
+                         <div class="col-lg-4 creators">
+                            <div class="card" style="width: 361px;" style="background-color: #121214; ">
+                                 <div class="card-body">
+                                     <img src="./image/card-3.png" alt="" class="card-img">
+                                     <p class="card-text  card-description">It’s been fun to dive into Splice’s creator community and explore tools that support my own creative process.</p>
+                                     <p class="card-text  card-name">Kesha Lee</p>
+                                 </div>
+                             </div> 
+                         </div>
+                    </div>
+                </div>
+                <div class="try">
+                        <h2 class="try__title">Try Splice today</h2>
+                        <button class="tru__btn btn btn-primary">Start now</button>
+                </div>
+        </div>
+        </main>
+        <footer class="footer">
+            <div class="content">
+                <div class="footer__inner">
+                    <ul class="nav contact ">
+                        <li class="nav-item">
+                            <ul class="footer__menu-list">
+                                <li class="footer__menu-item"><h2>Skills</h2></li>
+                                <li class="footer__menu-item">Features</li>
+                                <li class="footer__menu-item">Catalog</li>
+                                <li class="footer__menu-item"><h2>Studio</h2></li>
+                                <li class="footer__menu-item">Features</li>
+                                <li class="footer__menu-item">About Splice Studio</li>
+                                <li class="footer__menu-item">Managing Your Production Library</li>
+                                <li class="footer__menu-item">Collaborating with Baewatch</li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <ul class="footer__menu-list">
+                                <li class="footer__menu-item"><h2>Community</h2></li>
+                                <li class="footer__menu-item">Ableton Live Projects</li>
+                                <li class="footer__menu-item">FL Studio Projects</li>
+                                <li class="footer__menu-item">Logic Pro X Projects</li>
+                                <li class="footer__menu-item">Garageband Projects</li>
+                                <li class="footer__menu-item">Remix Contests</li>
+                                <li class="footer__menu-item">Tiesto's Secrets</li>
+                            
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                          <ul class="footer__menu-list">
+                            <li class="footer__menu-item"><h2>Sounds</h2></li>
+                            <li class="footer__menu-item">Features</li>
+                            <li class="footer__menu-item">Catalog</li>
+                            <li class="footer__menu-item">How Jauz Uses Sounds</li>
+                            <li class="footer__menu-item">deadmau5's Chimaera</li>
+                            <li class="footer__menu-item">KSHMR Vol. 2</li>        
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <ul class="footer__menu-list">
+                                <li class="footer__menu-item"><h2>Plugins</h2></li>
+                                <li class="footer__menu-item">Top VSTs</li>
+                                <li class="footer__menu-item">Serum</li>
+                                <li class="footer__menu-item">Rent to Own</li>
+                                <li class="footer__menu-item">Free Plugins</li>
+                                <li class="footer__menu-item">Top Manufacturers</li>        
+                            </ul>
+                          </li>
+
+                          <li class="nav-item">
+                            <ul class="footer__menu-list">
+                                <li class="footer__menu-item"><h2>Beatmaker</h2></li>
+                                <li class="footer__menu-item">Create Your Own Beat</li>
+                                <li class="footer__menu-item">Wakapella</li>       
+                            </ul>
+                          </li>
+
+                          <li class="nav-item">
+                            <ul class="footer__menu-list">
+                                <li class="footer__menu-item"><h2>Blog</h2></li>
+                                <li class="footer__menu-item">Latest Posts</li>
+                                <li class="footer__menu-item">Using Soundtoys Decapitator</li>   
+                                <li class="footer__menu-item">Mastering 101</li>  
+                                <li class="footer__menu-item">Producing Future Beats</li>  
+                                <li class="footer__menu-item">Belonging @ Splice</li>      
+                            </ul>
+                          </li>
+                   
+                    </ul>
+
+                    <ul class="nav contact ">
+                        <li class="nav-item">
+                          <a class="nav-link" href="#" aria-current="page">© 2022 Splice.com All Rights Reserved</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#" aria-current="page">Terms of Use</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link " href="#" aria-current="page">Privacy Policy</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#" aria-current="page">Jobs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#" aria-current="page">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#" aria-current="page">Help</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#" aria-current="page"><img src="./image/facebook-logo.svg" alt="" srcset=""></a>
+                        </li>
+                    </ul>
+                   
+                </div>
+            </div>  
+        </footer>
+    </div> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
