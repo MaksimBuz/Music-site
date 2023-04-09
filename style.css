@@ -165,7 +165,7 @@ a {
     
        
 }
-/* Создать единый класс */
+
 .Connected__text-main , .sound__text-main , .Gear__text-main ,.Technology__text-main{
     color: #A6A8AD;
     font-size: 12px;
@@ -197,7 +197,6 @@ a {
     padding-left: 48px;
 }
 
-/* Создать единый класс */
 .Gear__text-title , .Technology__text-title ,.sound__text-title ,.Connected__text-title{ 
     font-size: 28px;
 }
@@ -285,7 +284,6 @@ text-align: right;
 
 .contact {
   margin-left: 24px;  
-  /* margin-top: 83px; */
 
 }
 
